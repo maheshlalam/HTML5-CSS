@@ -3,6 +3,7 @@
 
 :root {
     --primary-color:#7C3AED;
+    --dark-gray: #6B7280;
 
 }
 
@@ -84,4 +85,31 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+}
+
+
+
+
+/* @header */
+
+.mahesh {
+    padding: 2rem;
+}
+
+.mahesh .mahesh-img {
+
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.mahesh .mahesh-heading {
+    color: var(--dark-gray);
+    text-align: center;
+    padding-top: 1rem;
+
+}
+
+.mahesh .mahesh-heading .heading-inverted {
+    color: var(--primary-color)
 }
