@@ -17,6 +17,12 @@ body{
 hr {
     margin: 2rem 0rem;
 }
+
+/* spaces */
+.margin-md {
+    margin: 2rem;
+}
+
 /* *****container*** */
 .container {
     padding: 0rem 1rem;
@@ -96,6 +102,8 @@ hr {
 
 .mahesh {
     padding: 2rem;
+    padding-top: 5rem;
+
 }
 
 .mahesh .mahesh-img {
@@ -144,6 +152,11 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer .link {

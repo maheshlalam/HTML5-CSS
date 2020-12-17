@@ -3,119 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-
-    <link href="styles.css" rel="stylesheet" />
-    
+    <title>home | maheshlalam</title>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
+    <nav class="navigation container">
 
-    <h1  >  Welocome to Mahesh,s Component Library!  </h1>
-
-    <p >I am attending neog.camp and i want to make a library which would make all my projects look and consistent.</p>
-
-    <hr>
-
-
-    <h2> @ typography</h2>
-    
-    <h1> This is the biggest heading</h1>
-    <h2> This is the second biggest heading</h2>
-    <p> let me show you the normal text. This is free flowing and will wrap at the end 
-        like a paragraph </p>
-
-    <p>This paragraph will have a <strong>bold</strong> text</p>
-
-
-    <small > This is relatively smaller text</small>    
-    <hr>
-
-    <h2> @ container</h2>
-
-
-    <h3> fluid container</h3>
-    <div class="container  "> this is a containered container and it well go till the specified width </div>
-
-    <h3> center container</h3>
-    <div class=" container container-center"> this is a containered container and it well go till the specified width </div>
-
-    <hr>
-
-    <h2>@ links</h2>
-
-
-    <a class=" link link-primary" href="/">primary Link</a>
-    <a class="link link-secondary" href="/">secondary Link</a>
-
-
-    <hr>
-
-    <h2>@ Lists</h2>
-
-
-    <h3>unordered list</h3>
-
-    <p>this list will not have the bullet.</p>
-
-    <ul class="list-non-bullet">
-        <li> Item one</li> 
-        <li> Item Two</li> 
-        <li> Item Three</li>
-        
-   </ul>
-
-   <h3> unordered inline list </h3>
-
-   <ul class="list-non-bullet">
-    <li class="list-item-inline"> Inline Item One </li>
-    <li class="list-item-inline"> Inline Item One </li>
-    <li class="list-item-inline"> Inline Item One </li>
-
-     </ul>
-
-     <h3> Ordered list</h3>
-
-     <ol>
-
-        <li>MIlk</li>
-        <li>Eggs</li>
-        <li>Bread</li>
-         </ol>
-    
-
-     <h3> Reverse ordered list</h3>
-
-     <ol reversed >
-
-    <li>MIlk</li>
-    <li>Eggs</li>
-    <li>Bread</li>
-     </ol>
-
-     <hr>
-
-     <h2>@ nav</h2>
-
-     <nav class="navigation container">
-
-        <div class="nav-brand"> I Am Brand</div>
+        <div class="nav-brand"> I Am Mahesh Lalam</div>
 
         <ul class="list-non-bullet nav-pills ">
             <li class="list-item-inline" >
                 <a class="link link-active"  href="/">Home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link link-active" href="/">Products</a>
+                <a class="link link-active" href="/projects.html">Projects</a>
             </li>
             <li class="list-item-inline">
-                <a class="link link-active" href="/">About</a>
+                <a class="link link-active" href="/blogs.html">blogs</a>
             </li>
         </ul>
      </nav>
-
-     <hr>
-
-     <h2>@ Header</h2>
 
      <header class="mahesh">
 
@@ -124,54 +31,53 @@
         <h1 class="mahesh-heading">Mahesh The<span class="heading-inverted"> Web Developer</span></h1>
      </header>
 
-     <hr>
-     <h2>@ Section</h2>
-
-
-
-
-     <!-- <section> 
-
-        <h3>fluid section</h3>
-        <p> This will go end with little margin at both sides </p>
-     </section> -->
-
-     <section class="section">
-         <div class="container container-center">
-            <h1>white section</h1>
-            <p> We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
-
-               <p> Every part of MDN (docs, demos, and the site itself) are created by an open community of developers. Please, join us! </p>
-    
-         </div>
-     </section>
-
      <section class="section ow">
-         <div class="container container-center">
-            <h1>off white section</h1>
-            <p> We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.
+        <div class="container container-center">
+           <h1>Technologies</h1>
+           <p>
+               I,m familiar with HTML5,CSS,Git,JavaScript,NodeJS,ReactJS,and Web Hosting.
+            </p>   
+        </div>
+    </section>
 
-                Every part of MDN (docs, demos, and the site itself) are created by an open community of developers. Please, join us! </p>
+    <section class="section ">
+        <div class="container container-center">
+           <h1>Projects</h1>
+           <p>
+               I like to showcase my work and thus, you can see my projects hosted online.
+            </p>
+            
+            <a class=" link link-primary" href="/">See Projects</a>
+
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+           <h1>Blogs</h1>
+           <p>
+               I am also working on some technical and non technical blogs. I like to document my journey of learning.
+            </p>  
+            <a class=" link link-secondary" href="/">Read Blogs</a>
+  
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">Social media presence</div>
+
+        <ul class="social-link list-non-bullet">
+            <li class="list-item-inline"> <a class="link " href="https://github.com/"> Github</a>  </li>
+            <li class="list-item-inline"> <a class="link " href="https://twitter.com/"> Twitter</a>  </li>
+            <li class="list-item-inline"> <a class="link "  href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHrT_ob4_a6dQAAAXZvaxdQH968piAjbKJPeT1Pm5LMhe_MDLMDfAGdKtH4KoL_ZmXP9djLy_I86UOWRv4olbzcQgq1LiqL5-uocwvfFXHEG90P7LmIGrPVo0Lyb9QSuml_o8w=&originalReferer=https://www.google.com/&sessionRedirect=https%3A%2F%2Fin.linkedin.com%2F/"> Linkedin</a> </li>
+        </ul>
+    </footer>
+
+
+
+
+
+
     
-         </div>
-     </section>
-
-     <hr>
-
-     <h2>@ Footer</h2>
-
-     <footer class="footer">
-         <div class="footer-header">some small heading inside footer</div>
-
-         <ul class="social-link list-non-bullet">
-             <li class="list-item-inline"> <a class="link " href="/"> socialOne</a>  </li>
-             <li class="list-item-inline"> <a class="link " href="/"> socialTwo</a>  </li>
-             <li class="list-item-inline"> <a class="link "  href="/"> socialThree</a> </li>
-         </ul>
-     </footer>
-
-   
- 
-
 </body>
 </html>
